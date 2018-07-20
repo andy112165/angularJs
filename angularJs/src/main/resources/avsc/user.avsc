@@ -1,0 +1,25 @@
+{
+   "namespace": "cn.slimsmart.avro.demo",
+   "type": "record",
+   "name": "User",
+   "fields": [
+      {
+         "name": "name",
+         "type": "string"
+      },
+      {
+         "name": "age",
+         "type": [
+            "int",
+            "null"
+         ]
+      },
+      {
+         "name": "phone",
+         "type": [
+            "string",
+            "null"
+         ]
+      }
+   ]
+}
